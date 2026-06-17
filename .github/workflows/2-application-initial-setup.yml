@@ -59,7 +59,7 @@ jobs:
 
       # START: Check practical exercise
 
-      - name: Check React 19 dependency
+      - name: Check React dependency
         id: check-react-19
         continue-on-error: true
         uses: skills/action-keyphrase-checker@v2.0.0
